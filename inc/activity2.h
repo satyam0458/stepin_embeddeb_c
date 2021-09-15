@@ -2,10 +2,10 @@
 #define __ACTIVITY_2_H__
 /**
  * @file activity2.h
- * @author anoop
+ * @author pavan
  * @brief activity2
  * @version 0.1
- * @date 2021-04-27
+ * @date 2021-09-15
  * 
  * @copyright Copyright (c) 2021
  * 
