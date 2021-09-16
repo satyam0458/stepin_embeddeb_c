@@ -13,3 +13,6 @@ The buttons have to be switched on before the app starts working.
  <img src="https://www.code-inspector.com/project/28622/status/svg" />
  [![Cppcheck](https://github.com/pavankalyanmedishetty/stepin_embeddeb_c/actions/workflows/CodeQuality.yml/badge.svg)](https://github.com/pavankalyanmedishetty/stepin_embeddeb_c/actions/workflows/CodeQuality.yml)
 [![Compile-Linux](https://github.com/pavankalyanmedishetty/stepin_embeddeb_c/actions/workflows/Compile.yml/badge.svg)](https://github.com/pavankalyanmedishetty/stepin_embeddeb_c/actions/workflows/Compile.yml)
+
+## FLOWCHART
+[!FLOWCHART](https://github.com/pavankalyanmedishetty/stepin_embeddeb_c/blob/ee6aee5af5a5833d9229a0238f99468dfa170687/2_Architectures/FLOWCHART.drawio.png)
