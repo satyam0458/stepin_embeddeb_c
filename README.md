@@ -14,5 +14,16 @@ The buttons have to be switched on before the app starts working.
  [![Cppcheck](https://github.com/pavankalyanmedishetty/stepin_embeddeb_c/actions/workflows/CodeQuality.yml/badge.svg)](https://github.com/pavankalyanmedishetty/stepin_embeddeb_c/actions/workflows/CodeQuality.yml)
 [![Compile-Linux](https://github.com/pavankalyanmedishetty/stepin_embeddeb_c/actions/workflows/Compile.yml/badge.svg)](https://github.com/pavankalyanmedishetty/stepin_embeddeb_c/actions/workflows/Compile.yml)
 
-## FLOWCHART
-<img src="https://github.com/pavankalyanmedishetty/stepin_embeddeb_c/blob/ee6aee5af5a5833d9229a0238f99468dfa170687/2_Architectures/FLOWCHART.drawio.png" />
+## Contributors List and Summary
+
+PS No. |  Name               |    Features I'D   | Features |
+-------|---------------------|-------------------|----------|
+99006209 |Pavan kalyan Medishetty  | F1, F2, F3  | Tests if button is on or not, Converts the binary to adc, Displays the temperature on the serial monitor | 
+  
+
+## Challenges Faced and How Was It Overcome
+| No. | Challenge | Solution
+|-----|-----------|--------
+|1. | On the simulide latest version some sources are not available| By the help of connect class solved |
+|2. | issues in implementation | fixed them by making template in order
+|3. | Issues in workflows | fixed them by updating the path to all files correctly
