@@ -3,28 +3,54 @@
 /**
  * @file activity1.h
  * @author pavan
- * @brief activity1
+ * @Header file for activity1
  * @version 0.1
  * @date 2021-09-15
  * 
  * @copyright Copyright (c) 2021
  * 
  */
+
+/**
+ * Defining the macros
+ */
+
 #define F_CPU 16000000UL 	/**< Clock Frequency of MCU is 16 MHz */
+#define LED_PORT (PORTD)    /**< LED Port Number */
+
+/**
+ * Defining the pins for button, temperature sensor, led.
+ */
+#define BUTTON_SENSOR  (PORTD0)   
+#define TEMP_SENSOR  (PORTD1)   
+#define LED_PIN  (PORTD2)   
+
+
+/**
+ * Include header files
+ */ 
+#include <util/delay.h>
 #include <avr/io.h>
 
 /**
- * @brief initialise registers
+ * @function to initialize the peripherals
  * 
  */
-void peripheral_init();
+void peripherals(void);
 
 /**
- * @brief && 2 buttons and proceed if both are on
- * 
- * @return uint16_t 
+ * @Function to turn LED on
  */
-uint16_t buttons();
+void Led_on();
 
+/**
+ * @Function to turn LED off
+ */
+void Led_off();
 
-#endif /* __ACTIVITY_1_H__ */
+/**
+ * @If both the buttons are pressed then turn the led on 
+ */
+int activity1(void);
+
+#endif
