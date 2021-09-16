@@ -7,3 +7,4 @@
  <img src="https://www.code-inspector.com/project/28622/score/svg" />
  <img src="https://www.code-inspector.com/project/28622/status/svg" />
  [![Cppcheck](https://github.com/pavankalyanmedishetty/stepin_embeddeb_c/actions/workflows/CodeQuality.yml/badge.svg)](https://github.com/pavankalyanmedishetty/stepin_embeddeb_c/actions/workflows/CodeQuality.yml)
+[![Compile-Linux](https://github.com/pavankalyanmedishetty/stepin_embeddeb_c/actions/workflows/Compile.yml/badge.svg)](https://github.com/pavankalyanmedishetty/stepin_embeddeb_c/actions/workflows/Compile.yml)
