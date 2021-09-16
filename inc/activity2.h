@@ -1,30 +1,39 @@
-#ifndef __ACTIVITY_2_H__
-#define __ACTIVITY_2_H__
 /**
- * @file activity2.h
+ * @file Activity2.h
  * @author pavan
- * @brief activity2
+ * @Activity 2 header file
  * @version 0.1
  * @date 2021-09-15
  * 
  * @copyright Copyright (c) 2021
  * 
  */
-#define F_CPU 16000000UL 	/**< Clock Frequency of MCU is 16 MHz */
+#ifndef __ACTIVITY_2_H__
+#define __ACTIVITY_2_H__
+/**
+ * @Including header files
+ * 
+ */
+ 
+#include <util/delay.h>
 #include <avr/io.h>
 
 /**
- * @brief initializes registers
+ * @Intialising the function for ADC
  * 
  */
-void adc_init();
+void initialiseADC();
 
 /**
- * @brief converts input from potentiometer to digital value
  * 
- * @param ch 
- * @return uint16_t 
+ * @returning the ADC value
  */
-uint16_t adc_read(uint8_t ch);
+uint16_t readADC(uint8_t ch);
 
-#endif /* __ACTIVITY_2_H__ */
+/**
+ * @Return the ADC value to main function
+ * 
+ */
+uint16_t activity2(void);
+
+#endif
