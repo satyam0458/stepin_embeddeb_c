@@ -1,1 +1,25 @@
-<mxfile host="app.diagrams.net" modified="2021-09-16T11:09:35.617Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36 Edg/93.0.961.47" version="15.0.6" etag="KiYaHyh50rJ8yMrMksvd" type="github"><diagram id="7N_UG7sLdFTf4emg2RXg">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-09-16T11:43:51.279Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36 Edg/93.0.961.47" etag="nc3h14uwIkBAJc6m7Q9Q" version="15.0.6" type="github">
+  <diagram id="7N_UG7sLdFTf4emg2RXg" name="Page-1">
+    <mxGraphModel dx="1038" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="nVWqOFb56T2eQJBpBwFk-1" value="&lt;font&gt;&lt;u&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;&lt;br&gt;STRENGTH&lt;/font&gt;&lt;/u&gt;&lt;br&gt;-IT IS USER FRIENDLY.&lt;br&gt;-WE CAN EASILY CHANGE THE TEMP.&lt;br&gt;-LOW COST.&lt;br&gt;-CAN BE INSTALLED&amp;nbsp;&lt;br&gt;EASILY.&lt;br&gt;&lt;br&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="160" y="200" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="nVWqOFb56T2eQJBpBwFk-2" value="&lt;font&gt;&lt;u style=&quot;font-size: 17px&quot;&gt;&lt;br&gt;&lt;br&gt;WEAKNESS&lt;br&gt;&lt;/u&gt;&lt;font style=&quot;font-size: 13px&quot;&gt;-ITS &lt;br&gt;IS APPLICABLE&lt;br&gt;&amp;nbsp;FOR COUNTRIES WHICH &lt;br&gt;ARE HAVING LOW TEMPERATURE&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="320" y="200" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="nVWqOFb56T2eQJBpBwFk-3" value="&lt;font&gt;&lt;span style=&quot;font-size: 17px&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;u&gt;OPPORTUNITY&lt;/u&gt;&lt;/span&gt;&lt;font style=&quot;font-size: 13px&quot;&gt;&lt;br&gt;IT CAN BE IMPLEMENTED BY REPLACING HEATER BY AC,SO THAT WE CAN USE IN OTHER COUNTRIES&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="160" y="360" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="nVWqOFb56T2eQJBpBwFk-4" value="&lt;font&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;u&gt;&lt;font style=&quot;font-size: 19px&quot;&gt;THREAT&lt;/font&gt;&lt;/u&gt;&lt;br&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;NOT&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;&amp;nbsp;SUTIABLE&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;&amp;nbsp;FOR HIGH TEMPERATURE PLACES&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffcccc;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="320" y="360" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="nVWqOFb56T2eQJBpBwFk-5" value="&lt;font style=&quot;font-size: 32px&quot;&gt;&lt;u&gt;&lt;b&gt;SWOT ANALYSIS&lt;/b&gt;&lt;/u&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="160" y="140" width="320" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
