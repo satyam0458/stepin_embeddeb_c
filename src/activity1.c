@@ -1,35 +1,44 @@
+/**
+ * @file Activity1.c
+ * @author pavan
+ * @Activity 1 Blinking the LED
+ * @version 0.1
+ * @date 2021-09-14
+ * 
+ * @copyright Copyright (c) 2021
+ * 
+ */
+
 #include "activity1.h"
 
-/**
- * @brief initialise registers
- * 
- */
-
-void peripheral_init(void)
-{
-	DDRB|=(1<<PB0);
-	DDRD&=~(1<<PD0);
-	PORTD|=(1<<PD0);
-	DDRD&=~(2<<PD0);
-	PORTD|=(2<<PD0);
+void peripherals(void)
+{	
+	/* set the pin PD2*/
+	DDRD |= (1<<PD2); 
+	/* Clearing the bit PD0 */
+    DDRD &= ~(1<<PD0); 
+	
+    PORTD |= (1<<PD0); 
+    DDRD &= ~(1<<PD1); 
+    PORTD |= (1<<PD1); 
 }
-
-/**
- * @brief && 2 buttons and proceed if both are on
- * 
- * @return uint16_t 
- */
-
-uint16_t buttons()
+void led_on(){
+    LED_PORT |= (1<<LED_PIN); 
+}
+void led_off(){
+    LED_PORT &= ~(1<<LED_PIN);
+}
+int temp1=0;
+int activity1(void)
 {
-    if((!(PIND&(1<<PD0))) & (!(PIND&(2<<PD0))))
-        {
-            PORTD|=(1<<PD6);
-            return 1;
+       peripherals();
+        if(!(PIND&(1<<BUTTON_SENSOR )) && !(PIND&(1<<TEMP_SENSOR))) 
+        { 
+            temp1=1;
         }
-        else
+        else 
         {
-            PORTD&=~(1<<PD6);
-            return 0;
+            temp1=0;
         }
+    return temp1;
 }
