@@ -1,7 +1,6 @@
 #include "activity1.h"
 #include "activity2.h"
 #include "activity3.h"
-#include "activity4.h"
 
 int main(void)
 {
@@ -21,8 +20,6 @@ int main(void)
 	    /* Activity 3 Pulse Width Modulation according to its ADC value*/
             activity3(temp); 
 
-	    /* Communication using USART protocol */
-            activity4(temp);
 	   
             
 
