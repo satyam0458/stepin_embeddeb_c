@@ -1,9 +1,9 @@
 /**
  * @Activity3.c
- * @Chaitanya Kanagala 
+ * @pavan
  * @Acquiring ADC into PWM
  * @version 0.1
- * @date 2021-04-29
+ * @date 2021-09-14
  * 
  * @copyright Copyright (c) 2021
  * 
