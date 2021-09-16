@@ -1,24 +1,48 @@
-#ifndef __ACTIVITY_3_H__
-#define __ACTIVITY_3_H__
 /**
- * @file activity3.h
+ * @file Activity3.h
  * @author pavan
- * @brief activity3
+ * @Header file for activity3
  * @version 0.1
  * @date 2021-09-15
  * 
  * @copyright Copyright (c) 2021
  * 
  */
-#define F_CPU 16000000UL 	/**< Clock Frequency of MCU is 16 MHz */
-#include <avr/io.h>
+#ifndef __ACTIVITY_3_H__
+#define __ACTIVITY_3_H__
+
+/* pulse width modulation for 25%*/
+#define pwm_25 (250)
+
+
+/* pulse width modulation for 50%*/
+#define pwm_50 (512) 
+
+
+/* pulse width modulation for 75%*/
+#define pwm_75 (750) 
+
+
+/* pulse width modulation for 95%*/
+#define pwm_95 (990) 
+
 
 /**
- * @brief uses value from adc to make pwm signal of corresponding duty cycle
- * 
- * @param[in] delay_time Delay in Micro seconds
+ * @Including Header files
  * 
  */
-void pwm_init();
 
-#endif /* __ACTIVITY_3_H__ */
+#include <util/delay.h>
+#include <avr/io.h>
+
+
+/**
+ * @initialising timer registers 
+ * 
+ */
+void initialisetimer();
+
+/* Duty cycle according to ADC input*/
+void activity3(uint16_t temp);
+
+#endif
